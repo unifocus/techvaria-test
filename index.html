@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="dist/aos.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -16,7 +17,7 @@
 <body>
 <div class="container-fluid">
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div id = "nav1" class="container">
           <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
@@ -29,27 +30,79 @@
             <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav snip1135">
                     <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="#" data-hover="About Us">About Us</a></li>
+                    <li class=""><a href="aboutus.html" data-hover="About Us">About Us</a></li>
                     <li class="dropdown menu-large">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                        <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                         <ul class="dropdown-menu megamenu row">
-                            <li class="col-sm-2"><a href=""><img src="images/services/sample.png"></a></li>
-                            <li class="col-sm-2"><a href=""><img src="images/services/sample.png"></a></li>
-                            <li class="col-sm-2"><a href=""><img src="images/services/sample.png"></a></li>
-                            <li class="col-sm-2"><a href=""><img src="images/services/sample.png"></a></li>
-                            <li class="col-sm-2"><a href=""><img src="images/services/sample.png"></a></li>
-                            <li class="col-sm-2"><a href=""><img src="images/services/sample.png"></a></li>
+                            <li class="col-sm-2"><a href="services.html"><img src="images/icons/ERP Solutions.png"><br>ERP<br>Solutions</a></li>
+                            <li class="col-sm-2"><a href="BusinessDataIntelligence.html"><img src="images/icons/Business & Data Analytics.png"><br>Business &amp; Data<br>Analytics</a></li>
+                            <li class="col-sm-2"><a href="CRMImplementation.html"><img src="images/icons/CRM Implementation.png"><br>CRM<br>implementation</a></li>
+                            <li class="col-sm-2"><a href="ApplicationManagementServices.html"><img src="images/icons/Application Management Services.png"><br>Application<br>Management<br>Services</a></li>
+                            <li class="col-sm-2"><a href="CloudSolution.html"><img src="images/icons/Cloud Solutions.png"><br>Cloud<br>solutions</a></li>
+                            <li class="col-sm-2"><a href="MobilitySolutions"><img src="images/icons/Mobility Solutions.png"><br>Mobility<br>solutions</a></li>
+                            <li class="col-sm-2"><a href="ECommerce.html"><img src="images/icons/Ecommerce.png"><br>E-Commerce</a></li>
+                            <li class="col-sm-2"><a href="SAPAriba.html"><img src="images/icons/SAP Ariba.png"><br>SAP Ariba</a></li>
+                            <li class="col-sm-2"><a href="Fiori.html"><img src="images/icons/Fiori.png"><br>Fiori</a></li>
+                            
                         </ul>
                     </li>
-					<li><a href="#">Training</a></li>
-			        <li><a href="#">Industries</a></li>
+					<li><a href="training.html">Training</a></li>
+			        <li><a href="industries.html">Industries</a></li>
 			        <li><a href="#">Insights</a></li>
-			        <li><a href="#">Partners</a></li>
-			        <li><a href="#">Careers</a></li>
-			        <li><a href="#">Contact Us</a></li>
+			        <li><a href="partners.html">Partners</a></li>
+			        <li><a href="career.html">Careers</a></li>
+			        <li><a href="contactUs.html">Contact Us</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
+        <!--mobile menu*********************************-->
+        <div id = "nav2" class="container">
+          <div id="wrapper">
+          
+              <div class="overlay"></div>
+          
+              <!-- Sidebar -->
+              <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+                  <ul class="nav sidebar-nav">
+		            <li class="sidebar-brand"><a href="index.html">Home</a></li>
+		            <li><a href="aboutus.html">About Us</a></li>
+		            <li class="dropdown"><a href="services.html" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+		            	<ul class="dropdown-menu">
+                            <li class=""><a href="services.html">ERP Solutions</a></li>
+                            <li class=""><a href="BusinessDataIntelligence.html">Business &amp; Data Analytics</a></li>
+                            <li class=""><a href="CRMImplementation.html">CRM Implementation</a></li>
+                            <li class=""><a href="ApplicationManagementServices.html">Application Management <br>Services</a></li>
+                            <li class=""><a href="CloudSolution.html">Cloud Solution</a></li>
+                            <li class=""><a href="MobilitySolutions">Mobility solutions</a></li>
+                            <li class=""><a href="ECommerce.html">E-Commerce</a></li>
+                            <li class=""><a href="SAPAriba.html">SAP Ariba</a></li>
+                            <li class=""><a href="Fiori.html">Fiori</a></li>                            
+                        </ul>
+		            </li>
+		            <li><a href="training.html">Training</a></li>
+				    <li><a href="industries.html">Industries</a></li>
+				    <li><a href="#">Insights</a></li>
+				    <li><a href="partners.html">Partners</a></li>
+				    <li><a href="career.html">Careers</a></li>
+				    <li><a href="contactUs.html">Contact Us</a></li>
+                  </ul>
+              </nav><a class="navbar-brand" href="index.html"><img id="logo" src="images/techvaria_logo.png" alt="logo"  height="auto"></a>
+              <!-- /#sidebar-wrapper -->
+
+              <!-- Page Content -->
+              <div id="page-content-wrapper">
+                  <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                      <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+              <span class="hamb-bottom"></span>
+                  </button>
+              </div>
+              <!-- /#page-content-wrapper -->
+
+          </div>
+          <!-- /#wrapper -->
+        </div>
+        <!--mobile menu end*****************************-->
     </nav>
 </div><!-- /.container-fluid -->
 
@@ -59,27 +112,37 @@
 		  <ol class="col-sm-12 carousel-indicators">
 		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
 		  </ol>
 
 		  <!-- Wrapper for slides -->
 		  <div class="col-sm-12 carousel-inner" role="listbox">
 		    <div class="item active">
-		      	<img src="slide.jpg" alt="slide1">
-	      		<div class="col-sm-4 col-md-3 zoomIn animated carousel-caption">
+		      	<img src="slide1.jpg" alt="slide1" width="100%">
+	      		<div class="homeBox zoomIn animated carousel-caption clearfix">
 		      	 <h1>Empowering<br/><strong>what&apos;s next </strong></h1>
-		      	 <p>With over 10 years of experience helping businesses find comprehensive solutions</p>
-		         <a href=""><button class="btn btn_blue fadeInLeft animated" role="button">Our Company</button></a>
-		         <a href=""><button class="btn btn_orrange fadeInRight animated" role="button">Get in Touch</button></a>
+		      	 <p>With over 10 years of experience helping<br> businesses find comprehensive solutions</p>
+		         <a href="aboutus.html"><button class="btn snip0047 blue"><span>Our Company</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+		         <a href="contactUs.html"><button class="btn snip0047 yellow"><span>Get in Touch</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
 		      	</div>	      
 		    </div>
 
 		    <div class="item">
-		      <img src="slide.jpg" alt="slide2">
-	      		<div class="col-sm-4 col-md-3 zoomIn animated carousel-caption">
+		      <img src="slide2.jpg" alt="slide2" width="100%">
+	      		<div class="homeBox zoomIn animated carousel-caption clearfix">
 		      	 <h1>Empowering<br/><strong>what&apos;s next </strong></h1>
-		      	 <p>With over 10 years of experience helping businesses find comprehensive solutions</p>
-		         <a href=""><button class="btn btn_blue fadeInLeft animated" role="button">Our Company</button></a>
-		         <a href=""><button class="btn btn_orrange fadeInRight animated" role="button">Get in Touch</button></a>
+		      	 <p>With over 10 years of experience helping<br> businesses find comprehensive solutions</p>
+		         <a href="aboutus.html"><button class="btn snip0047 blue"><span>Our Company</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+		         <a href="contactUs.html"><button class="btn snip0047 yellow"><span>Get in Touch</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+		      	</div>
+		    </div>
+		    <div class="item">
+		      <img src="slide3.jpg" alt="slide3" width="100%">
+	      		<div class="homeBox zoomIn animated carousel-caption clearfix">
+		      	 <h1>Empowering<br/><strong>what&apos;s next </strong></h1>
+		      	 <p>With over 10 years of experience helping<br> businesses find comprehensive solutions</p>
+		         <a href="aboutus.html"><button class="btn snip0047 blue"><span>Our Company</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+		         <a href="contactUs.html"><button class="btn snip0047 yellow"><span>Get in Touch</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
 		      	</div>
 		    </div> 
 		  </div>	
@@ -95,50 +158,73 @@
 			<div class="col-sm-6 col-md-4 service">
 				<div>
 					<img src="images/ERP.jpg" width="100%" alt="ERP implementation services SAP and Oracle">
-					<h4>ERP implementation services SAP and Oracle</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor urna, tincidunt ut sem quis, hendrerit condimentum urna. Nulla semper quam eu sapien ultrices, sed commodo nisl scelerisque.</p>
+					<h4>ERP Solutions</h4>
+					<p> ERP or Enterprise Resource Planning is a business solution that enables companies to automate a number of activities and processes by means of applying user experience of integrated applications and a defined data structure from a common database. <br><a href="services.html">Read More &gt;&gt;</a></p>
 				</div>
 							
 			</div>			
 			<div class="col-sm-6 col-md-4 service">
 				<div>
-					<img src="images/appDevelopment.jpg" width="100%" alt="Application development services">
-					<h4>Application development services</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor urna, tincidunt ut sem quis, hendrerit condimentum urna. Nulla 	semper quam eu sapien ultrices, sed commodo nisl scelerisque.</p>
+					<img src="images/Business Business and Data Intelligence.jpg" width="100%" alt="Business Business and Data Intelligence">
+					<h4>Business and Data Intelligence</h4>
+					<p>In a nutshell, Business Intelligence (also simply addressed as BI) refers to a set of applications and processes that help analyses a company’s data, activities, projects, scope and revenue. Several aspects fall under the category of Business Intelligence. <br><a href="BusinessDataIntelligence.html">Read More &gt;&gt;</a></p>
 				</div>
 				
 			</div>
 			<div class="col-sm-6 col-md-4 service">
 				<div>
-					<img src="images/dataAnalytics.jpg" width="100%" alt="Data analytics">
-					<h4>Data analytics</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor urna, tincidunt ut sem quis, hendrerit condimentum urna. Nulla semper quam eu sapien ultrices, sed commodo nisl scelerisque.</p>
+					<img src="images/CRM.jpg" width="100%" alt="CRM">
+					<h4>CRM Implementation</h4>
+					<p>A CRM (or Customer Relationship Management) is a great way to enhance the efficiency of your sales and marketing teams. With Techvaria’s end-to-end CRM implementation, you can achieve excellent structure and process flow. <br><a href="CRMImplementation.html">Read More &gt;&gt;</a></p>
 				</div>
 				
 			</div>
+
 			<div class="col-sm-6 col-md-4 service">
 				<div>
-					<img src="images/mobility.jpg" width="100%" alt="Mobility solutions">
-					<h4>Mobility solutions</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor urna, tincidunt ut sem quis, hendrerit condimentum urna. Nulla semper quam eu sapien ultrices, sed commodo nisl scelerisque.</p>
+					<img src="images/Application Management Services.jpg" width="100%" alt="Application Management Services">
+					<h4>Application Management Services</h4>
+					<p>Techvaria&apos;s Application Management services are tailored to support users, continuously improving  solution-based landscapes and to optimise business processes. <br><a href="ApplicationManagementServices.html">Read More &gt;&gt;</a></p>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 service">
+				<div>
+					<img src="images/Cloud Solution.jpg" width="100%" alt="Cloud Solution">
+					<h4>Cloud Solution </h4>
+					<p>Oracle, cloud and ERP - three major pillars of technology that have helped metamorphose the entire scale and landscape of technical implementation, delivery and deployment. And when they merge, they form an extremely robust and technologically superior solution.  <br><a href="CloudSolution.html">Read More &gt;&gt;</a></p>
+				</div>
+			</div>
+			
+			<div class="col-sm-6 col-md-4 service">
+				<div>
+					<img src="images/Mobility Solutions.jpg" width="100%" alt="Mobility solutions">
+					<h4>Mobility Solutions</h4>
+					<p>Mobility is one of the prime catalysts of digital transformation today. Mobile devices have metamorphosed from just enabling access to emails and browsing on the go, to providing mobilised enterprise applications. <br><a href="MobilitySolutions.html">Read More &gt;&gt;</a></p>
 				</div>
 				
 			</div>			
+			
 			<div class="col-sm-6 col-md-4 service">
 				<div>
-					<img src="images/appMaintenance.jpg" width="100%" alt="Application maintenance services">
-					<h4>Application maintenance services</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor urna, tincidunt ut sem quis, hendrerit condimentum urna. Nulla semper quam eu sapien ultrices, sed commodo nisl scelerisque.</p>
-				</div>
-				
+					<img src="images/E-Commerce.jpg" width="100%" alt="E-Commerce">
+					<h4>E-Commerce</h4>
+					<p>It goes without saying that electronic commerce and online business is the future. Techvaria&apos;s custom E-commerce solutions provide flexible enterprise software, offering leading-edge omnichannel ecommerce <br><a href="ECommerce.html">Read More &gt;&gt;</a></p>
+				</div>	
 			</div>
 			<div class="col-sm-6 col-md-4 service">
 				<div>
-					<img src="images/training.jpg" width="100%" alt="Training">
-					<h4>Training</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor urna, tincidunt ut sem quis, hendrerit condimentum urna. Nulla semper quam eu sapien ultrices, sed commodo nisl scelerisque.</p>
+					<img src="images/appMaintenance.jpg" width="100%" alt="Application maintenance services">
+					<h4>SAP Ariba</h4>
+					<p>SAP Ariba is the world&apos;s largest marketplace for business-to-business transactions - connecting over two million companies and a trillion dollars in commerce each year. It simplifies business commerce and make it possible for buyers and sellers to grow connections that matter to them. <br><a href="SAPAriba.html">Read More &gt;&gt;</a></p>
 				</div>
-				
+			</div>
+			<div class="col-sm-6 col-md-4 service">
+				<div>
+					<img src="images/Fiori.jpg" width="100%" alt="Fiori">
+					<h4>Fiori</h4>
+					<p>Fiori is a rather fluid version of an  implementation. With the solution, we provide in  Fiori, you acquire a complete user experience that spans project goals, processes and devices involved in projects. <br><a href="Fiori.html">Read More &gt;&gt;</a></p>
+				</div>
 			</div>
 		</div><!-- /.row-->			
 	</div><!-- /.container-->
@@ -152,7 +238,7 @@
 			</div>
 			<div id="aboutUsText" class="col-sm-8 col-md-5">
 				<p>Technology is split between the innovators and the implementers. While there is no dearth of the first segment, the implementers that exist are few and far between. There is a chasm that divides a great idea and its functional implementation. That said, with every business problem, there is always a solution; a door to sort out incumbent issues. That solution comes in the form of specialists - a breed that understands domain, experiences real-time issues, and possesses the know-how of how to achieve.</p>
-				<a href=""><button class="btn btn_orrange fadeInRight animated" role="button">Read More</button></a>
+				<a href="aboutus.html"><button class="btn snip0047 yellow"><span>Read More</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
 			</div>
 		</div><!-- /.row-->
 	</div><!-- /.container-->
@@ -174,6 +260,7 @@
                   <li><img src="images/clients/wipro.jpg" alt=""></li>
                   <li><img src="images/clients/UST.jpg" alt=""></li>
                   <li><img src="images/clients/tcs.jpg" alt=""></li>
+                  <li><img src="images/clients/kbase.jpg" alt=""></li>
                 </ul>
               </div><!-- @end .clients-wrap -->
             </div><!-- @end #clients -->
@@ -186,6 +273,7 @@
                     <img src="images/clients/wipro.jpg" alt="">
                     <img src="images/clients/UST.jpg" alt="">
                     <img src="images/clients/tcs.jpg" alt="">
+                    <img src="images/clients/kbase.jpg" alt="">
           </div><!-- @end #x -->
       </div>
     </div><!-- /.row-->  
@@ -197,9 +285,9 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h2>Request Call Back.<span><hr></span></h2>
-				<p>Would you like to speak to one of our financial advisers over the
-				 phone? Just submit your details and we&apos;ll be in touch shortly.
-				You can also email us if you would prefer.</p>
+				<p>We will be more  than glad to answer your  any questions you have.
+				Please provide your information by filling this form and we will get back to 
+				you as soon as we can.You can also email us if you would prefer.</p>
 			</div>
 			<div class="col-sm-6">
 				<form name="contactform" method="post" action="send_form_email.php">
@@ -220,7 +308,7 @@
 	                <input type="email" name="email" class="form-control" id="email" placeholder="Email Id">
 	              </div>
 	              <div class="form-group">
-	              	<button type="submit" class="btn btn_orrange" role="button">Submit Now</button>
+	              	<button type="submit" class="btn snip0047 yellow"><span>Submit Now</span><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
 	              </div>
 	              
 	          </form>
@@ -234,29 +322,38 @@
 		<div class="row">
 			<div id="section1" class="col-sm-5">
 				<a class="" href="index.html"><img id="logo2" src="images/techvaria_logo2.png" alt="techvaria_logo"  height="auto"></a>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tortor urna, tincidunt ut sem quis, hendrerit condimentum urna.</p>
+				<p>Techvaria provides tailored solutions in business intelligence and analytics,IT consultancy and training modules and certifications to companies and corporations.</p>
 				<img class="icon" src="images/icons/iconCall.png">
-				<a href="tel:12345678900">1234 - 567 - 8900</a><br>
-				<a href="mailto:techvaria@.com">techvaria@.com</a>
+				<a href="tel:8041211333">+91 8041211333</a><br>
+				<a href="mailto:feroz@techvaria.com">feroz@techvaria.com</a>
 			</div>
 			<div id="section2" class="col-sm-3">
 				<h4>Follow us</h4>
 				<ul>
-					<li><a href=""><img class="icon" src="images/icons/iconLinkdin.png"><span> Linkedin</span> </a></li>
-					<li><a href=""><img class="icon" src="images/icons/iconTwitter.png"><span> Twitter</span> </a></li>
-					<li><a href=""><img class="icon" src="images/icons/iconGooglePlus.png"><span> Google Plus</span> </a></li>
-					<li><a href=""><img class="icon" src="images/icons/iconFacebook.png"><span> Facebook</span> </a></li>
+					<li><a href="" target="_blank"><img class="icon" src="images/icons/iconLinkdin.png"><span> Linkedin</span> </a></li>
+					<li><a href="https://twitter.com/techvaria" target="_blank"><img class="icon" src="images/icons/iconTwitter.png"><span> Twitter</span> </a></li>
+					<li><a href="https://plus.google.com/u/0/103302530354491651452" target="_blank"><img class="icon" src="images/icons/iconGooglePlus.png"><span> Google Plus</span> </a></li>
+					<li><a href="https://www.facebook.com/techvaria" target="_blank"><img class="icon" src="images/icons/iconFacebook.png"><span> Facebook</span> </a></li>
 				</ul>
+				<div>
+					<a href="" target="_blank"><img class="icon" src="images/icons/iconLinkdin.png"></a>
+					<a href="https://twitter.com/techvaria" target="_blank"><img class="icon" src="images/icons/iconTwitter.png"></a>
+					<a href="https://plus.google.com/u/0/103302530354491651452" target="_blank"><img class="icon" src="images/icons/iconGooglePlus.png"></a>
+					<a href="https://www.facebook.com/techvaria" target="_blank"><img class="icon" src="images/icons/iconFacebook.png"></a>
+				</div>
 			</div>
 			<div id="section3" class="col-sm-4">
 			<h4>Our services</h4>
 				<ul>
-					<li><a href="">ERP implementation services-SAP and Oracle</a></li>
-					<li><a href="">Application development services</a></li>
-					<li><a href="">Data analytics </a></li>
-					<li><a href="">Mobility solutions</a></li>
-					<li><a href="">Application maintenance services</a></li>
-					<li><a href="">Training</a></li>
+					<li><a href="">ERP Solutions</a></li>
+					<li><a href="">Business &amp;Data Analytics</a></li>
+					<li><a href="">CRM Implementation</a></li>
+					<li><a href="">Application Management Services</a></li>
+					<li><a href="">Cloud Solution</a></li>
+					<li><a href="">Mobility Solutions</a></li>
+					<li><a href="">E-Commerce</a></li>
+					<li><a href="">SAP Ariba</a></li>
+					<li><a href="">Fiori</a></li>
 				</ul>
 			</div>
 		</div>
@@ -272,5 +369,4 @@
   <script src="dist/aos.js"></script>
   <script type="text/javascript" src="js/carousels.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
-
 </html>
