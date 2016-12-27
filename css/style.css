@@ -490,6 +490,17 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 #partners{padding-top: 30px;padding-bottom: 30px;}
 /************************************************************Partners Page*************************************************************/
 
+/************************************************************Insights Page*************************************************************/
+#insightsMain{background-image: url("../images/insights_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
+#insightsMain h2{color: #fff;margin-top: 10%;}
+#insightsMain .container .row{height: 325px;}
+#insights form .form-group{width: 100%; padding-left: 17%;padding-right: 17%;}
+#subscribe{background-color: #034361;padding: 15px;}
+#subscribe > div{width:100%; height: 100%;  background-color: #034361; border:1px solid #fff;position: relative;box-sizing: border-box;text-align: center;
+overflow: hidden;padding: 15px;}
+#subscribe > div button{width:100%;}
+/************************************************************Insights Page*************************************************************/
+
 
 /***********************************mobile menu**********************/
 .nav .open > a, 
