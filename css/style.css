@@ -40,7 +40,7 @@ label{color: #fff;font-family: 'Open Sans', sans-serif;font-weight: 100;}
   }
 .navbar-brand > img {
     display: block;
-    width: 190px;
+    width: 211px;
 }
 .navbar-default .navbar-nav > li > a {
     color: #034361;
@@ -303,7 +303,7 @@ button.snip0047.blue {
 #section2 div{display: none;}
 #ourServices{padding-bottom: 30px;}
 #ourServices a{color: #c46428}
-#aboutUsMain a, #servicesMain a, #trainingMain a, #industriesMain a, #careersMain a, #contactUsMain a, #partnersMain a{color: #060606;}
+#aboutUsMain a, #servicesMain a, #trainingMain a, #industriesMain a, #careersMain a, #contactUsMain a, #partnersMain a, #insightsMain a{color: #060606;}
 /************************************************************AboutUs Page*************************************************************/
 #aboutUsMain{background-image: url("../images/about_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
 #aboutUsMain h2{color: #fff;margin-top: 10%;}
@@ -438,9 +438,9 @@ height: 215px;}
 #trainingMain h2{color: #fff;margin-top: 10%;}
 #trainingMain .container .row{height: 325px;}
 #trainings .row{padding-bottom: 40px;}
-#trainings img{width:100%;}
-#trainings a{cursor: pointer;color: #c46428; text-decoration: none;}
+.training1 a{cursor: pointer;color: #c46428; text-decoration: none;}
 .read_less, .read_less1, .read_less2{display: none;}
+.training1 h4, .training1 p, .training1 a{color: #000;}
 /************************************************************training Page*************************************************************/
 
 /************************************************************industries Page*************************************************************/
@@ -494,11 +494,17 @@ border: 2px solid #b0b0b1;margin-bottom: 30px;}
 #insightsMain{background-image: url("../images/insights_background.jpg");background-size: 100%; background-repeat: no-repeat;margin-top: 4%;}
 #insightsMain h2{color: #fff;margin-top: 10%;}
 #insightsMain .container .row{height: 325px;}
-#insights form .form-group{width: 100%; padding-left: 17%;padding-right: 17%;}
+#insights form .form-group{width: 100%; padding-left: 10%;padding-right: 10%;margin-bottom: 25px;}
 #subscribe{background-color: #034361;padding: 15px;}
 #subscribe > div{width:100%; height: 100%;  background-color: #034361; border:1px solid #fff;position: relative;box-sizing: border-box;text-align: center;
-overflow: hidden;padding: 15px;}
+overflow: hidden;padding: 15px;padding-bottom: 0;}
 #subscribe > div button{width:100%;}
+#subscribe > div input{border-radius: 0;height: 42px;margin-top: 29px;}
+#insights{padding-top: 25px;}
+#posts > .row div{width: 50%;float: left;box-sizing: border-box;padding-left: 35px;}
+#posts .row p{color: #000;margin-top: 20px;}
+#posts{padding-bottom: 20px;padding-left:50px;}
+#posts > .row{border-bottom: 2px solid #eee;}
 /************************************************************Insights Page*************************************************************/
 
 
